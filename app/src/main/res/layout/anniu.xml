@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:id="@+id/chechang"
+        android:textSize="20sp"
+        android:background="@drawable/selector_xml_btn_yellow"
+        android:text="找场子"
+ />
+    <Button
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:id="@+id/chewei"
+        android:textSize="20sp"
+        android:background="@drawable/selector_xml_btn_yellow"
+        android:text="找位子"
+  />
+
+    <Button
+        android:id="@+id/yonghu"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:background="@drawable/selector_xml_btn_yellow"
+        android:text="账号" />
+</LinearLayout>

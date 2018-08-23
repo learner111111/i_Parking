@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/tongzhi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="新消息通知"
+        android:textAlignment="textStart"
+        android:layout_marginTop="10sp"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/qingli"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="缓存清理"
+        android:textAlignment="textStart"
+        android:layout_marginTop="5sp"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/shanchu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="删除账号"
+        android:textAlignment="textStart"
+        android:layout_marginTop="5sp"
+        android:textSize="24sp" />
+
+</LinearLayout>
